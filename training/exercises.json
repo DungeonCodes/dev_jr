@@ -1,0 +1,12 @@
+{
+  "exercises": [
+    { "id": "ex001", "category": "01-logica", "testFile": "training/01-logica/ex001-filter-ativos/solution.test.ts" },
+    { "id": "ex002", "category": "01-logica", "testFile": "training/01-logica/ex002-maior-numero/solution.test.ts" },
+    { "id": "ex003", "category": "02-javascript", "testFile": "training/02-javascript/ex003-propriedade-opcional/solution.test.ts" },
+    { "id": "ex004", "category": "04-http-rest", "testFile": "training/04-http-rest/ex004-status-http/solution.test.ts" },
+    { "id": "ex005", "category": "05-sql", "testFile": "training/05-sql/ex005-select-where/solution.test.ts" },
+    { "id": "ex006", "category": "10-debugging", "testFile": "training/10-debugging/ex006-desconto/solution.test.ts" },
+    { "id": "ex007", "category": "02-javascript", "testFile": "training/02-javascript/ex007-async-await/solution.test.ts" },
+    { "id": "ex008", "category": "15-ai-native", "testFile": "training/15-ai-native/ex008-analise-codigo-ia/solution.test.ts" }
+  ]
+}

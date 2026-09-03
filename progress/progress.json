@@ -1,0 +1,9 @@
+{
+  "student": {
+    "strongTopics": [],
+    "weakTopics": [],
+    "recurringErrors": []
+  },
+  "attempts": [],
+  "aiModes": ["off", "review", "assisted"]
+}
