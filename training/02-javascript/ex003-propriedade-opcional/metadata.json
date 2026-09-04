@@ -1,1 +1,1 @@
-{"id":"EX003","title":"Propriedade opcional","subject":"objetos","difficulty":"fundamentals","technologies":["TypeScript"],"concepts":["optional chaining","nullish coalescing","tipos opcionais"],"suggestedMinutes":15,"type":"implementation"}
+{"id":"EX003","title":"Propriedade opcional","subject":"objetos","topics":["javascript","typescript","testing"],"difficulty":"fundamentals","technologies":["TypeScript"],"concepts":["optional chaining","nullish coalescing","tipos opcionais"],"suggestedMinutes":15,"type":"implementation"}

@@ -2,8 +2,11 @@
   "student": {
     "strongTopics": [],
     "weakTopics": [],
-    "recurringErrors": []
+    "recurringErrors": [],
+    "topicStatus": {},
+    "nextTopic": null
   },
   "attempts": [],
+  "assessmentDimensions": ["solution", "fundamentals", "debugging", "explanation"],
   "aiModes": ["off", "review", "assisted"]
 }

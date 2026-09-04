@@ -24,7 +24,8 @@ Leia primeiro o `README.md` do exercício e implemente somente no arquivo indica
 * `training/`: enunciados, sua área de solução, testes e metadados.
 * `references/`: soluções de referência usadas pela validação da infraestrutura; não consultar antes de tentar o exercício.
 * `progress/`: registro simples de evolução.
+* `learning/`: roadmap, materiais, checklists e registro curto de estudo.
 * `simulations/`: espaço preparado para simulados futuros.
 * `docs/`: contexto, decisões, regras e guias de operação.
 
-Consulte [a arquitetura](docs/architecture.md), [o guia de exercícios](docs/exercises.md) e [as regras para agentes](AGENTS.md).
+Consulte [a arquitetura](docs/architecture.md), [o guia de exercícios](docs/exercises.md), a [trilha de aprendizagem](learning/README.md) e [as regras para agentes](AGENTS.md).

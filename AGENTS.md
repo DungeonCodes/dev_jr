@@ -11,5 +11,9 @@
 * Preserve o histórico em `progress/progress.json`.
 * Nunca use dados pessoais, credenciais ou secrets em exercícios.
 * Respeite o modo de IA registrado: `off`, `review` ou `assisted`.
+* Execute e apresente os testes da tentativa antes de sugerir mudanças.
+* Oriente debugging antes de entregar uma resposta pronta, salvo pedido explícito.
+* Incentive consulta à documentação e a explicação técnica do aluno.
+* Não transforme estudo em consumo passivo de cursos: conecte conceito, prática, teste e revisão.
 
 As soluções oficiais ficam em `references/` e não devem ser usadas para responder ou alterar uma tentativa sem autorização explícita do aluno.

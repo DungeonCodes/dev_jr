@@ -1,1 +1,1 @@
-{"id":"EX005","title":"SELECT com WHERE","subject":"SQL","difficulty":"fundamentals","technologies":["SQL"],"concepts":["SELECT","WHERE","colunas"],"suggestedMinutes":15,"type":"SQL"}
+{"id":"EX005","title":"SELECT com WHERE","subject":"SQL","topics":["sql","testing"],"difficulty":"fundamentals","technologies":["SQL"],"concepts":["SELECT","WHERE","colunas"],"suggestedMinutes":15,"type":"SQL"}

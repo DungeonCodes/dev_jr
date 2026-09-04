@@ -1,1 +1,1 @@
-{"id":"EX004","title":"Categoria de status HTTP","subject":"HTTP","difficulty":"fundamentals","technologies":["TypeScript","HTTP"],"concepts":["status code","response"],"suggestedMinutes":15,"type":"implementation"}
+{"id":"EX004","title":"Categoria de status HTTP","subject":"HTTP","topics":["http-rest","typescript","testing"],"difficulty":"fundamentals","technologies":["TypeScript","HTTP"],"concepts":["status code","response"],"suggestedMinutes":15,"type":"implementation"}
