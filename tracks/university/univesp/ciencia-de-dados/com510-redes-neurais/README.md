@@ -1,16 +1,12 @@
 # UNIVESP — Ciência de Dados — COM510 Redes Neurais
 
-Trilha prática da disciplina, separada da preparação Dev Jr. O objetivo não é espelhar o Moodle: cada semana conecta conteúdo, implementação em Python, execução, testes, debugging, explicação técnica e aplicação real.
+Esta trilha agora prioriza prática com redes neurais, em Python, no nível Júnior. O syllabus acadêmico permanece apenas como referência; não é necessário criar novas apostilas ou resumos teóricos.
 
-1. Leia [`syllabus/observed-curriculum.md`](syllabus/observed-curriculum.md).
-2. Abra a semana prioritária em [`study/roadmap.md`](study/roadmap.md) e faça uma tentativa sem solução antecipada.
-3. Registre a sessão em [`progress/progress.json`](progress/progress.json), usando `AI_MODE` `off`, `review` ou `assisted`.
-
-Lógica testável fica em `exercises/` ou `labs/`; notebooks, quando houver, ficam somente para exploração/visualização.
+Comece por [`practical/01-first-mlp/README.md`](practical/01-first-mlp/README.md). Faça uma tentativa por checkpoint e registre a sessão em [`progress/progress.json`](progress/progress.json), mantendo `AI_MODE` como `off`, `review` ou `assisted`.
 
 ```powershell
 node scripts/check-track-scope.mjs --track university-univesp-com510-redes-neurais
 python -m pytest tracks/university/univesp/ciencia-de-dados/com510-redes-neurais/tests
 ```
 
-O segundo comando será habilitado quando Python e pytest funcionarem. Não instale frameworks pesados sem gate explícito.
+Não use frameworks pesados sem gate explícito.

@@ -1,6 +1,14 @@
 {
   "track_id": "university-univesp-com510-redes-neurais",
   "ai_modes": ["off", "review", "assisted"],
+  "practical": {
+    "01-first-mlp": {
+      "status": "not-started",
+      "ai_mode": "off",
+      "checkpoint": 1,
+      "next_action": "Implementar a tentativa do Checkpoint 1: carregar e inspecionar o dataset."
+    }
+  },
   "weeks": {
     "week-01": {"status": "not-started", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Consolidar o neurônio artificial."},
     "week-02": {"status": "not-started", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Preparar um pipeline mínimo."},
