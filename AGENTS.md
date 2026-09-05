@@ -17,3 +17,11 @@
 * Não transforme estudo em consumo passivo de cursos: conecte conceito, prática, teste e revisão.
 
 As soluções oficiais ficam em `references/` e não devem ser usadas para responder ou alterar uma tentativa sem autorização explícita do aluno.
+
+## Isolamento de trilhas
+
+Antes de escrever em uma atividade de estudo: identifique a trilha ativa em `tracks/**/TRACK.json`, leia o contrato e seus caminhos `allowed_write`, execute `git status --short` e preserve alterações humanas preexistentes. `shared_read` é somente leitura sem autorização explícita.
+
+Depois de escrever: execute `git diff --name-only` (incluindo não rastreados), compare cada arquivo ao contrato com `node scripts/check-track-scope.mjs --track <track_id>`, sinalize arquivos externos e pare se houver alteração não autorizada. Nunca corrija silenciosamente alterações externas.
+
+Nunca altere outra trilha para "melhorar organização", "padronizar", "refatorar" ou aproveitar a oportunidade. Alterações cross-track exigem tarefa explícita separada. Arquivos de governança como `AGENTS.md` e o verificador de escopo só podem mudar quando a tarefa pedir explicitamente.

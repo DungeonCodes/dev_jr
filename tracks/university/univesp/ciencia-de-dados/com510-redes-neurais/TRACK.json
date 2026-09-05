@@ -1,0 +1,13 @@
+{
+  "track_id": "university-univesp-com510-redes-neurais",
+  "name": "Redes Neurais — COM510",
+  "objective": "Converter conteúdo observado em estudo prático, implementação testável, debugging e explicação técnica.",
+  "status": "active",
+  "allowed_write": ["tracks/university/univesp/ciencia-de-dados/com510-redes-neurais/**"],
+  "owned_paths": ["tracks/university/univesp/ciencia-de-dados/com510-redes-neurais/**"],
+  "shared_read": ["README.md", "AGENTS.md", "scripts/**", "tracks/**/TRACK.json"],
+  "shared_write_requires_explicit_authorization": ["README.md", "AGENTS.md", "scripts/**", "tracks/**"],
+  "forbidden_write": ["tracks/career/**", "training/**", "learning/**", "references/**", "progress/**"],
+  "dependencies": ["Python 3", "NumPy (futuro)", "pytest (futuro)"],
+  "validation_commands": ["node scripts/check-track-scope.mjs --track university-univesp-com510-redes-neurais", "python -m pytest tracks/university/univesp/ciencia-de-dados/com510-redes-neurais/tests"]
+}

@@ -1,0 +1,12 @@
+{
+  "track_id": "career-junior-developer",
+  "name": "Preparação para Desenvolvedor Júnior",
+  "objective": "Praticar fundamentos, testes, debugging e explicação técnica para vagas júnior.",
+  "status": "active",
+  "allowed_write": ["training/**", "learning/**", "references/**", "progress/**", "simulations/**", "docs/**"],
+  "owned_paths": ["training/**", "learning/**", "references/**", "progress/**", "simulations/**", "docs/**"],
+  "shared_read": ["README.md", "AGENTS.md", "scripts/**"],
+  "shared_write_requires_explicit_authorization": ["README.md", "AGENTS.md", "scripts/**"],
+  "dependencies": ["Node.js", "npm", "TypeScript", "Vitest"],
+  "validation_commands": ["npm test", "npm run typecheck"]
+}

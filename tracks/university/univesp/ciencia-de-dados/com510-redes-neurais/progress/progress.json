@@ -1,0 +1,13 @@
+{
+  "track_id": "university-univesp-com510-redes-neurais",
+  "ai_modes": ["off", "review", "assisted"],
+  "weeks": {
+    "week-01": {"status": "not-started", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Consolidar o neurônio artificial."},
+    "week-02": {"status": "not-started", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Preparar um pipeline mínimo."},
+    "week-03": {"status": "not-started", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Entender XOR e MLP."},
+    "week-04": {"status": "not-started", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Planejar experimento de generalização."},
+    "week-05": {"status": "not-started", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Explorar RBF e SOM."},
+    "week-06": {"status": "studying", "deadline": "2026-09-06T23:59:00-03:00", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Primeira tentativa do lab Hopfield."},
+    "week-07": {"status": "not-started", "deadline": "2026-09-11T23:59:00-03:00", "exercise_attempted": false, "lab": "not-started", "ai_mode": "off", "difficulty": null, "errors": [], "explanation": null, "next_action": "Após semana 6, preparar sequência simples."}
+  }
+}

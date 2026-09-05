@@ -1,5 +1,7 @@
 # Dev Jr Training
 
+Este repositório organiza múltiplas trilhas isoladas. A preparação Dev Jr permanece nos diretórios legados; contratos e registro de arquitetura ficam em [`tracks/`](tracks/README.md). Conteúdo acadêmico da UNIVESP não deve entrar em `training/`, `learning/` ou `references/` legados.
+
 Ambiente progressivo para praticar testes técnicos de Desenvolvedor e Software Engineer Júnior. O foco é resolver, testar, depurar, explicar e revisar código — inclusive código assistido por IA.
 
 ## Começo rápido
