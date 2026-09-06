@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dev-jr.local/pedagogy/assessment-schema.json",
+  "title": "Active learning records",
+  "oneOf": [
+    { "$ref": "#/$defs/conceptAttempts" },
+    { "$ref": "#/$defs/reviewQueue" }
+  ],
+  "$defs": {
+    "aiMode": { "enum": ["off", "review", "assisted"] },
+    "state": { "enum": ["not-seen", "introduced", "partial", "consolidated", "review-needed"] },
+    "assessment": { "enum": ["correct", "partial", "incorrect"] },
+    "errorType": { "enum": ["terminology", "conceptual", "logic", "implementation", "interpretation", "memory", "incomplete-answer", null] },
+    "date": { "type": "string", "format": "date-time" },
+    "conceptAttempt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["concept_id", "topic", "question", "student_answer", "assessment", "error_type", "feedback", "retry_question", "retry_answer", "final_state", "date", "ai_mode"],
+      "properties": {
+        "concept_id": { "type": "string", "minLength": 1 },
+        "topic": { "type": "string", "minLength": 1 },
+        "question": { "type": "string", "minLength": 1 },
+        "student_answer": { "type": ["string", "null"] },
+        "assessment": { "$ref": "#/$defs/assessment" },
+        "error_type": { "$ref": "#/$defs/errorType" },
+        "feedback": { "type": ["string", "null"] },
+        "retry_question": { "type": ["string", "null"] },
+        "retry_answer": { "type": ["string", "null"] },
+        "final_state": { "$ref": "#/$defs/state" },
+        "date": { "$ref": "#/$defs/date" },
+        "ai_mode": { "$ref": "#/$defs/aiMode" }
+      }
+    },
+    "conceptAttempts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "attempts"],
+      "properties": {
+        "schema_version": { "const": "1.0" },
+        "attempts": { "type": "array", "items": { "$ref": "#/$defs/conceptAttempt" } }
+      }
+    },
+    "reviewItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["concept_id", "reason", "last_attempt", "recommended_revisit"],
+      "properties": {
+        "concept_id": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 1 },
+        "last_attempt": { "$ref": "#/$defs/date" },
+        "recommended_revisit": { "type": "string", "format": "date" }
+      }
+    },
+    "reviewQueue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "review_queue"],
+      "properties": {
+        "schema_version": { "const": "1.0" },
+        "review_queue": { "type": "array", "items": { "$ref": "#/$defs/reviewItem" } }
+      }
+    }
+  }
+}

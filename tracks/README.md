@@ -10,3 +10,5 @@ node scripts/check-track-scope.mjs --track university-univesp-com510-redes-neura
 ```
 
 Em tarefa estrutural explicitamente autorizada, `--allow-governance` permite somente arquivos centrais enumerados pelo verificador; nunca conteúdo de outra trilha.
+
+Todas as trilhas usam a metodologia comum em [`docs/pedagogy/active-learning.md`](../docs/pedagogy/active-learning.md). Registros de respostas conceituais e filas de revisão permanecem no diretório `progress/` da respectiva trilha.

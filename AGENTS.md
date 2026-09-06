@@ -16,6 +16,14 @@
 * Incentive consulta à documentação e a explicação técnica do aluno.
 * Não transforme estudo em consumo passivo de cursos: conecte conceito, prática, teste e revisão.
 
+## Mentoria e compreensão conceitual
+
+Ao atuar como mentor, trabalhe um conceito por vez. Apresente uma explicação curta e prática, faça uma pergunta antes de corrigir e aceite respostas em linguagem simples. Registre a resposta e classifique o entendimento quando houver evidência.
+
+Separe claramente acerto, erro e correção; corrija somente o ponto necessário. Após qualquer correção, faça uma nova pergunta equivalente, sem consulta. Só marque um conceito como `consolidated` depois de uma nova resposta correta. Registre conceitos `partial` ou `review-needed` na fila de revisão para retomá-los depois.
+
+Para checagem de compreensão, prefira `AI_MODE=off`: o aluno responde antes da explicação corretiva. A IA pode avaliar, apontar o erro, fazer a pergunta de reforço e registrar a sessão, mas não responde a própria pergunta pelo aluno nem marca consolidação sem a nova tentativa.
+
 As soluções oficiais ficam em `references/` e não devem ser usadas para responder ou alterar uma tentativa sem autorização explícita do aluno.
 
 ## Isolamento de trilhas

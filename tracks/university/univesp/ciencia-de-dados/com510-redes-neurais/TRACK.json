@@ -5,7 +5,7 @@
   "status": "active",
   "allowed_write": ["tracks/university/univesp/ciencia-de-dados/com510-redes-neurais/**"],
   "owned_paths": ["tracks/university/univesp/ciencia-de-dados/com510-redes-neurais/**"],
-  "shared_read": ["README.md", "AGENTS.md", "scripts/**", "tracks/**/TRACK.json"],
+  "shared_read": ["README.md", "AGENTS.md", "scripts/**", "tracks/**/TRACK.json", "docs/pedagogy/**"],
   "shared_write_requires_explicit_authorization": ["README.md", "AGENTS.md", "scripts/**", "tracks/**"],
   "forbidden_write": ["tracks/career/**", "training/**", "learning/**", "references/**", "progress/**"],
   "dependencies": ["Python 3", "NumPy", "scikit-learn", "pytest"],

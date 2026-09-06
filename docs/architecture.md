@@ -6,6 +6,8 @@ Cada exercício separa enunciado, área de resposta, teste e metadados. As solu�
 
 `learning/` fornece teoria curta, materiais e checklists; cada tópico aponta para exercícios existentes ou para sua categoria futura. `progress/progress.json` conserva tentativas e diagnóstico simples, sem dashboard ou banco.
 
+`docs/pedagogy/` define a metodologia comum de aprendizagem ativa, seu template de sessão e o schema de registros conceituais. Cada trilha guarda as próprias tentativas e fila de revisão no seu diretório de progresso; não há banco, frontend ou conteúdo específico compartilhado.
+
 ## Categorias
 
 `training/` usa numeração progressiva: `01-logica`, `02-javascript`, `03-typescript`, `04-http-rest`, `05-sql`, `06-node`, `07-react`, `08-nextjs`, `09-git-terminal`, `10-debugging`, `11-testing`, `12-auth`, `13-python`, `14-docker`, `15-ai-native`, `16-desafios-integrados` e `17-simulados`.
